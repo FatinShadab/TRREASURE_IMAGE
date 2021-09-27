@@ -39,10 +39,19 @@ Proceed to describe how to install / setup one's local environment / get started
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+- To hide someting in a jpg file you have to user the PIRATE module like below, 
+ 
+`from treasure_image import PIRATE
 
-`import io`
+#if want to hide a string in example.jpg(host image)
+PIRATE.hide_str_treasure(image="example.jpg", treasure="This is a hidden message!")
+
+#if want to hide a image in example.jpg(host image)
+PIRATE.hide_img_treasure(image="example.jpg", treasure="hidden_image.png")
+
+#if want to hide a file(.exe, .py, .cpp, .txt etc) in example.jpg(host image)
+PIRATE.hide_file_treasure(image="example.jpg", treasure="hidden_file.exe")
+`
 
 
 ## Project Status
@@ -60,4 +69,4 @@ Created by [@FatinShadab](https://github.com/FatinShadab) - feel free to contact
 
 <!-- Optional -->
 ## License
- This project is open source and available under the [... License]().
+ This project is open source and available under the [MIT License]().
