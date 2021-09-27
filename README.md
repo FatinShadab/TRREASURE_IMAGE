@@ -40,8 +40,8 @@ Proceed to describe how to install / setup one's local environment / get started
 
 ## Usage
 - To hide someting in a jpg file you have to user the PIRATE module like below, 
- 
-`from treasure_image import PIRATE
+``` 
+from treasure_image import PIRATE
 
 #if want to hide a string in example.jpg(host image)
 PIRATE.hide_str_treasure(image="example.jpg", treasure="This is a hidden message!")
@@ -51,7 +51,7 @@ PIRATE.hide_img_treasure(image="example.jpg", treasure="hidden_image.png")
 
 #if want to hide a file(.exe, .py, .cpp, .txt etc) in example.jpg(host image)
 PIRATE.hide_file_treasure(image="example.jpg", treasure="hidden_file.exe")
-`
+```
 
 
 ## Project Status
