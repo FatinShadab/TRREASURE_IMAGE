@@ -7,7 +7,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Python library Used](#Python-library-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
@@ -27,7 +27,7 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
+## Python library Used
 - Tech 1 - version 1.0
 - Tech 2 - version 2.0
 - Tech 3 - version 3.0
