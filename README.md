@@ -10,7 +10,7 @@
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
-* [To do](#To_do)
+* [To do](#to_do)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 <!-- * [License](#license) -->
@@ -19,10 +19,11 @@
 ## General Information
 >You can do some awesome things like hide anything in a .jpg image or
 >even make a gif from normal images with two lines of code or covert text files and images.
->
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+
+What can you do with it?
+- can hide secret messages or executable file or images and share by another image.
+- can make gifs using photos for free and easily.
+- can convert images and text files
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
