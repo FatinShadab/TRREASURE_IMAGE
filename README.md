@@ -22,9 +22,8 @@
 
 What can you do with it?
 - can hide secret messages or executable file or images and share by another image.
-- can make gifs using photos for free and easily.
-- can convert images and text files
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- can easily make gifs using photos for free
+- can convert images and text files also
 
 
 ## Python library Used
