@@ -10,10 +10,10 @@
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
-* [To do](#to_do)
-* [Acknowledgements](#acknowledgements)
+* [To do](#to-do)
 * [Contact](#contact)
-<!-- * [License](#license) -->
+* [License](#license)
+ 
 
 
 ## General Information
@@ -51,24 +51,13 @@ Project is: _in progress_
 
 ## To do
 
-To do:
 - Support for image formats as host image (currently jpg is allowed)
 - Support for vector graphics (.svg, .ai etc)
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
 
 ## Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
-
 <!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## License
+ This project is open source and available under the [... License]().
