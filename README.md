@@ -42,7 +42,7 @@ Proceed to describe how to install / setup one's local environment / get started
 How does one go about using it?
 Provide various use cases and code examples here.
 
-`write-your-code-here`
+`import io`
 
 
 ## Project Status
@@ -56,7 +56,7 @@ Project is: _in progress_
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@FatinShadab](https://github.com/FatinShadab) - feel free to contact me!
 
 <!-- Optional -->
 ## License
