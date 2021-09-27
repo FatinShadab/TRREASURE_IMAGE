@@ -1,8 +1,7 @@
 
 # TRREASURE_IMAGE
-> TRREASURE_IMAGE is python lib with Command-Line Interface[cli] feature
-> by which you can do some awesome things like  hide anything in a .jpg image or
->  even make a gif from normal images with two lines of code.
+> TRREASURE_IMAGE is a python third-party library  with Command-Line Interface[cli] feature.
+
 
 
 ## Table of Contents
@@ -20,7 +19,9 @@
 
 
 ## General Information
-- Provide general information about your project here.
+>You can do some awesome things like hide anything in a .jpg image or
+>even make a gif from normal images with two lines of code or covert text files and images.
+>
 - What problem does it (intend to) solve?
 - What is the purpose of your project?
 - Why did you undertake it?
@@ -28,9 +29,9 @@
 
 
 ## Python library Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- language info: python - version 3+
+- python standard libraries - [ logging, io, os, pathlib, argparse]
+- python third-party libraries - Pillow(version 8.3.2)
 
 
 ## Features
