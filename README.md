@@ -121,6 +121,23 @@ python -m treasure_image CONVERTER -file example.txt -ct example.py
 ```
 python -m treasure_image GifMaker -imgs E:\picture -if PNG -title example -d 120 -l 5
 ```
+- To use PIRATE module do,
+>to hide a message in 'example.jpg',
+```
+python -m treasure_image PIRATE -hm .\example.jpg -tt str -t 'This is massege'
+```
+>to hide 'to_be_hide.png' in 'example.jpg',
+```
+python -m treasure_image PIRATE -hm .\example.jpg -tt img -t .\to_be_hide.png
+```
+>to hide 'to_be_hide.exe' in 'example.jpg',
+```
+python -m treasure_image PIRATE -hm .\example.jpg -tt exe -t .\to_be_hide.exe
+```
+>to hide 'to_hide_files.py' in 'example.jpg',
+```
+python -m treasure_image PIRATE -hm .\example.jpg -tt file -t .\to_hide_files.py
+```
 
 ## Project Status
 Project is: _in progress_
