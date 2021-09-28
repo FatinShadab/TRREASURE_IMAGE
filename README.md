@@ -34,7 +34,9 @@ What can you do with it?
 
 
 ## Setup
-Get it on PYPI
+Get it on [PYPI](https://pypi.org/project/Treasure-Image/)
+
+- pip install
 ```
 pip install Treasure-Image
 ```
