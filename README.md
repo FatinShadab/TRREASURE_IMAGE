@@ -9,6 +9,7 @@
 * [Python library Used](#Python-library-used)
 * [Setup](#setup)
 * [Usage](#usage)
+* [Cli commands ](#cli-commands)
 * [Project Status](#project-status)
 * [To do](#to-do)
 * [Contact](#contact)
@@ -105,7 +106,20 @@ CONVERTER.convert_image(target_image="example.png", format_to='jpg')
 CONVERTER.convert_to_script(text_file="treasure.text", convert_to="treasure.py")
 ```
 
+## Cli commands
+- To use CONVERTER module do,
+```
+# to convert 'example.jfif' to 'example.jpg'
+python -m treasure_image CONVERTER -img download.jfif -ft jpg
 
+# to convert 'example.txt' to 'example.py'
+python -m treasure_image CONVERTER -file example.txt -ct example.py
+```
+- To use GifMaker module do,
+```
+# to create example.gif from png images stored in E:\picture with a duration of 120ms and 5 loops,
+python -m treasure_image GifMaker -imgs E:\picture -if PNG -title example -d 120 -l 5
+```
 
 ## Project Status
 Project is: _in progress_
@@ -119,7 +133,7 @@ Project is: _in progress_
 
 
 ## Contact
-Created by [@FatinShadab](fatinshadab123@gmail.com) - feel free to contact me!
+Created by [@FatinShadab](https://github.com/FatinShadab) - feel free to contact me!
 
 <!-- Optional -->
 ## License
