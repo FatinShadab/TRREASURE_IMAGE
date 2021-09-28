@@ -79,6 +79,33 @@ EXPLORER.seek_file_treasure(image="example.jpg")
 # treasure_name="treasure"(default) it saves the file with provided name
 # treasure_format='text'(default) if save=True it the file/script in provided format/type.
 ```
+- for creating GIF you have to use the GifMaker module like below,
+```
+from treasure_image import GifMaker
+
+GifMaker(imgs_folder="E:\picture",
+         image_formate="png",
+         title="example", 
+         duration="120", 
+         loop="5",
+).make_gif()
+
+# it has two default parameters which are 'output_folder' and 'optimize'
+# output_folder=current working dir.(default)
+# optimize=False(default)
+```
+- To convert images in order to use this lib and conver outputed .text files to script use CONVERTER module like below,
+```
+from treasure_image import CONVERTER
+
+# if want to convert 'example.png' to 'example.jpg'
+CONVERTER.convert_image(target_image="example.png", format_to='jpg')
+
+# if want to convert outputed 'treasure.text' file to script like 'treasure.py'
+CONVERTER.convert_to_script(text_file="treasure.text", convert_to="treasure.py")
+```
+
+
 
 ## Project Status
 Project is: _in progress_
@@ -92,7 +119,7 @@ Project is: _in progress_
 
 
 ## Contact
-Created by [@FatinShadab](https://github.com/FatinShadab) - feel free to contact me!
+Created by [@FatinShadab](fatinshadab123@gmail.com) - feel free to contact me!
 
 <!-- Optional -->
 ## License
