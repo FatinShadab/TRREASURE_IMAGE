@@ -52,10 +52,37 @@ PIRATE.hide_img_treasure(image="example.jpg", treasure="hidden_image.png")
 #if want to hide a file(.exe, .py, .cpp, .txt etc) in example.jpg(host image)
 PIRATE.hide_file_treasure(image="example.jpg", treasure="hidden_file.exe")
 ```
+- To hide extract something from a jpg file you have to user the EXPLORER module like below,
+``` 
+from treasure_image import EXPLORER
 
+#if want to extract a string from example.jpg(host image)
+EXPLORER.seek_str_treasure(image="example.jpg")
+
+#if want to extract a image from example.jpg(host image)
+EXPLORER.seek_img_treasure(image="example.jpg")
+# it has two more default parameters which are 'save' and 'treasure_format',
+#
+# save=True(default) it saves the image in local machine
+# if save=False than it only shows the image.
+# treasure_format='jpg'(default) if save=True it saves the file in provided treasure_format.
+
+#if want to extract a .exe file from example.jpg(host image)
+EXPLORER.seek_exe_treasure(image="example.jpg")
+# there is a default perameter 'treasure_name'
+# treasure_name='treasure.exe'(default) saves the exe file in the provided name and format.
+
+#if want to extract a script/files from example.jpg(host image)
+EXPLORER.seek_file_treasure(image="example.jpg")
+# it has two more default parameters which are 'treasure_name' and 'treasure_format',
+#
+# treasure_name="treasure"(default) it saves the file with provided name
+# treasure_format='text'(default) if save=True it the file/script in provided format/type.
+```
 
 ## Project Status
 Project is: _in progress_
+>Any kind of Support will be appreciate.
 
 
 ## To do
@@ -69,4 +96,4 @@ Created by [@FatinShadab](https://github.com/FatinShadab) - feel free to contact
 
 <!-- Optional -->
 ## License
- This project is open source and available under the [MIT License]().
+ This project is open source and available under the [MIT License](https://github.com/FatinShadab/TRREASURE_IMAGE/blob/main/LICENSE).
