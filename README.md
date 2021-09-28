@@ -80,7 +80,7 @@ EXPLORER.seek_file_treasure(image="example.jpg")
 # treasure_name="treasure"(default) it saves the file with provided name
 # treasure_format='text'(default) if save=True it the file/script in provided format/type.
 ```
-- for creating GIF you have to use the GifMaker module like below,
+- For creating GIF you have to use the GifMaker module like below,
 ```
 from treasure_image import GifMaker
 
@@ -138,6 +138,24 @@ python -m treasure_image PIRATE -hm .\example.jpg -tt exe -t .\to_be_hide.exe
 ```
 python -m treasure_image PIRATE -hm .\example.jpg -tt file -t .\to_hide_files.py
 ```
+- To use EXPLORER module do,
+>to extract a message from 'example.jpg',
+```
+python -m treasure_image EXPLORER -hm .\example.jpg -tt str
+```
+>to extract image from 'example.jpg',
+```
+python -m treasure_image EXPLORER -hm .\example.jpg -tt img
+```
+>to extract exe from 'example.jpg',
+```
+python -m treasure_image EXPLORER -hm .\example.jpg -tt exe
+```
+>to hide files/scripts from 'example.jpg',
+```
+python -m treasure_image EXPLORER -hm .\example.jpg -tt file
+```
+
 
 ## Project Status
 Project is: _in progress_
