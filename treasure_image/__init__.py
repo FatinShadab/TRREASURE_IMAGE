@@ -28,7 +28,7 @@
 """
 
 
-__author__ = "Fastin Shadab"
+__author__ = "Fatin Shadab"
 __email__ = "fatinshadab123@gmail.com"
 __github__ = "https://github.com/FatinShadab"
 __status__ = "planning"
